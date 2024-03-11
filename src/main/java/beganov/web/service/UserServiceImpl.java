@@ -44,6 +44,6 @@ public class UserServiceImpl implements UserService {
         userUpdate.setName(userUpdate.getName());
         userUpdate.setSurname(userUpdate.getSurname());
         userUpdate.setAge(userUpdate.getAge());
-        userRepository.save(userUpdate);
+        userRepository.save(user);
     }
 }

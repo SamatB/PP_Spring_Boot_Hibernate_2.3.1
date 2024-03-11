@@ -1,6 +1,6 @@
-package beganov.web.config;
+package beganov.web;
 
-import beganov.web.config.Application;
+import beganov.web.Application;
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
 
