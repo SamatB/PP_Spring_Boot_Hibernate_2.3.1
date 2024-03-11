@@ -11,7 +11,7 @@ public class HelloController {
 
     @GetMapping("/hello")
     public String hello(ModelMap model) {
-        String hello = "Hello! It's Spring MVC project";
+        String hello = "Hello! It's Spring BOOT project";
         model.addAttribute("hello", hello);
         return "home";
     }
